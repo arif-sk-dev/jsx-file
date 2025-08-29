@@ -1,13 +1,13 @@
 import React from 'react';
 import Menu from './../component/Menu';
 
-const Profile = () => {
+const Products = () => {
   return (
     <div>
       <Menu />
-      <h1>This is Profile Page</h1>
+      <h1>This is Products page.</h1>
     </div>
   );
 };
 
-export default Profile;
+export default Products;

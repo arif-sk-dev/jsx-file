@@ -1,8 +1,10 @@
 import React from 'react';
+import Menu from './../component/Menu';
 
 const About = () => {
   return (
     <div>
+      <Menu />
       <h1>This is About Page</h1>
     </div>
   );
