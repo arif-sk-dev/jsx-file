@@ -10,11 +10,11 @@ const Menu = () => {
   return (
     <div>
       <ul>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/products">Products</NavLink></li>
-        <li><NavLink to="/profile">Profile</NavLink></li>
-        <li><NavLink to="/about">About</NavLink></li>
-        <li><NavLink to="/error">Error</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/">Home</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/products">Products</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/profile">Profile</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/about">About</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/error">Error</NavLink></li>
       </ul>
     </div>
   );
