@@ -11,8 +11,8 @@ const Menu = () => {
     <div>
       <ul>
         <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/">Home</NavLink></li>
-        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/products">Products</NavLink></li>
-        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/profile">Profile</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/products/202/Soap">Products</NavLink></li>
+        <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/profile/arif713/hossain-453">Profile</NavLink></li>
         <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/about">About</NavLink></li>
         <li><NavLink className={({isActive})=>isActive?"active-item":"pending-item"} to="/error">Error</NavLink></li>
       </ul>
